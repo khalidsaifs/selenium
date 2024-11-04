@@ -1,0 +1,158 @@
+{
+  "id": "f1196b24-008e-4609-bb4f-137408444a33",
+  "version": "2.0",
+  "name": "CURA",
+  "url": "https://katalon-demo-cura.herokuapp.com",
+  "tests": [{
+    "id": "d73c5540-6dd3-42d5-a4f4-dcc906fba33e",
+    "name": "negative test case",
+    "commands": [{
+      "id": "f9021e92-10f5-4462-9cda-ac0f2197557e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09dcb606-2dbf-436d-bf37-2c6adf415f45",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71e5c8a1-a89e-4238-9182-96974456cff3",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-make-appointment",
+      "targets": [
+        ["id=btn-make-appointment", "id"],
+        ["linkText=Make Appointment", "linkText"],
+        ["css=#btn-make-appointment", "css:finder"],
+        ["xpath=//a[contains(text(),'Make Appointment')]", "xpath:link"],
+        ["xpath=//a[@id='btn-make-appointment']", "xpath:attributes"],
+        ["xpath=//header[@id='top']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './profile.php#login')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Make Appointment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9e1bd27-af02-4511-b003-ccb94ba91fb8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-8:nth-child(2) > .input-group > .form-control",
+      "targets": [
+        ["css=.col-sm-8:nth-child(2) > .input-group > .form-control", "css:finder"],
+        ["xpath=//input[@value='John Doe']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/div/div[2]/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7f87b25-23fb-47b4-85c7-fa61507f2166",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-8:nth-child(2) > .input-group > .form-control",
+      "targets": [
+        ["css=.col-sm-8:nth-child(2) > .input-group > .form-control", "css:finder"],
+        ["xpath=//input[@value='John Doe']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/div/div[2]/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "496f60a3-8829-421b-8f2d-821225dcced2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-8:nth-child(2) > .input-group > .form-control",
+      "targets": [
+        ["css=.col-sm-8:nth-child(2) > .input-group > .form-control", "css:finder"],
+        ["xpath=//input[@value='John Doe']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/div/div[2]/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d07a7116-df6b-4646-8d11-6331cf16809b",
+      "comment": "",
+      "command": "click",
+      "target": "id=txt-username",
+      "targets": [
+        ["id=txt-username", "id"],
+        ["name=username", "name"],
+        ["css=#txt-username", "css:finder"],
+        ["xpath=//input[@id='txt-username']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "936e09ee-98a5-40a0-966a-c93097ebeacc",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt-username",
+      "targets": [
+        ["id=txt-username", "id"],
+        ["name=username", "name"],
+        ["css=#txt-username", "css:finder"],
+        ["xpath=//input[@id='txt-username']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "abc@gmail.com"
+    }, {
+      "id": "daace593-3717-4394-9034-bcd0d5ce6ec5",
+      "comment": "",
+      "command": "click",
+      "target": "id=txt-password",
+      "targets": [
+        ["id=txt-password", "id"],
+        ["name=password", "name"],
+        ["css=#txt-password", "css:finder"],
+        ["xpath=//input[@id='txt-password']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80b6aa00-e055-46c3-96d5-cd7f4d94dc84",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt-password",
+      "targets": [
+        ["id=txt-password", "id"],
+        ["name=password", "name"],
+        ["css=#txt-password", "css:finder"],
+        ["xpath=//input[@id='txt-password']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "5e2acd31-e645-437c-8187-cfc9d6294dea",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=txt-password",
+      "targets": [
+        ["id=txt-password", "id"],
+        ["name=password", "name"],
+        ["css=#txt-password", "css:finder"],
+        ["xpath=//input[@id='txt-password']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "10174a74-5635-4c03-893a-930a139eefaf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d73c5540-6dd3-42d5-a4f4-dcc906fba33e"]
+  }],
+  "urls": ["https://katalon-demo-cura.herokuapp.com/"],
+  "plugins": []
+}
