@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fcef2cd-807c-48f7-8c18-17dfe07027e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/selenium.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SOURCE/README.me" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SOURCE/S1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SOURCE/__init__.py" afterDir="false" />
+    <list default="true" id="2fcef2cd-807c-48f7-8c18-17dfe07027e9" name="Changes" comment="Selenium topics and 2 tests">
+      <change afterPath="$PROJECT_DIR$/SOURCE/Project_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOURCE/S2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOURCE/S3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.me" beforeDir="false" afterPath="$PROJECT_DIR$/README.me" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +26,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;khalidsaifs&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/khalidsaifs/selenium.git&quot;,
+    &quot;accountId&quot;: &quot;cd980a4e-7a18-4754-9cc0-b048fb7b4319&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2oOs5aIAstaZk751eElZPmTjVbr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,7 +49,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for Project_1.test_automate_make_appointment.executor": "Run",
+    "Python tests.Python tests for SOURCE.Project_1.test_automate_make_appointment.executor": "Run",
     "Python tests.Python tests in S1.py.executor": "Run",
+    "Python tests.Python tests in S2.py.executor": "Run",
+    "Python tests.Python tests in S3.py.executor": "Run",
+    "Python.S1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true"
@@ -49,8 +62,47 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\khali\PycharmProjects\selenium" />
       <recent name="C:\Users\khali\PycharmProjects\selenium\SOURCE" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for Project_1.test_automate_make_appointment">
+    <configuration name="Python tests for Project_1.test_automate_make_appointment" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="selenium" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SOURCE" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Project_1.test_automate_make_appointment&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for SOURCE.Project_1.test_automate_make_appointment" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="selenium" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SOURCE" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;SOURCE.Project_1.test_automate_make_appointment&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for Project_1.test_automate_make_appointment" />
+        <item itemvalue="Python tests.Python tests for SOURCE.Project_1.test_automate_make_appointment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -68,6 +120,27 @@
       <option name="presentableId" value="Default" />
       <updated>1730751773622</updated>
     </task>
+    <task id="LOCAL-00001" summary="Selenium topics and 2 tests">
+      <option name="closed" value="true" />
+      <created>1730758511787</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730758511787</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Selenium topics and 2 tests">
+      <option name="closed" value="true" />
+      <created>1730758716331</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730758716331</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Selenium topics and 2 tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium topics and 2 tests" />
   </component>
 </project>

@@ -11,19 +11,149 @@ Selenium is used in:
 It is suit consist of three elements:
         1. IDE:
             ~It is used to record and playback
-            ~It is used in smaller projects which is having test cases lesstan 50.
+            ~It is used in smaller projects which is having test cases less than 50.
 
 
         2. Web Drivers:
             ~used to automate the browsers.
            # Architecture:
             ~programming language(python,java,c#,ruby) > API request > browsers drivers > Browser.
+            >>>Salenium Architecture:
+                    ¬{Selenium scripts are converted into Api request using http methods and further it goes to the browser drivers
+                        and browser drivers communicate with the browser API's.}
             ~jason wire protocol (selenium3)
             ~W3C protocol is used in selenium 4(in current world)
 
 
         3. grid - Selenium Grid:
             ~It is used to run the testcases in different systems.
-            ~it is used fro parallel execution.
+            ~it is used for parallel execution.
             ~cloud and cross browser testing(CBT)
                 >chrome,firefox to see the UI.
+
+
+>>>> WEB DRIVER HIERARCHY:
+
+   search Content >> web drive >> remote web driver >>chromium drive>>> chrome drive
+                                                    >>Firefox drive, etc.
+
+    >>ChromeDriver:
+        chromedriver is class used to communicate with chrome browser, such as get() is used to naviagate to the specific Url.
+
+        element() is used to locate the element in the page.driver.get() -> Loads a web page in the current browser session
+        driver.get() -> Loads a web page in the current browser session
+        driver.title -> Returns the title of the current page.
+        driver.current_url -> Gets the URL of the current page.
+        driver.page_source -> Gets the source of the current page.
+
+
+    >>ChromeOptions:
+        Some additions functions which cna use to perform before opening the browser.
+        such as opening the browser in incognito mode
+        such as opening the browser in maximum or min options
+        such as starting the browser headless means without Ul which accelerate the execution.
+        such as adjusting the window size.
+
+    Automating using selenium using python:
+    1. Navigate to the URl(1. [katalon-demo-cura.herokuapp.com](https://katalon-demo-cura.herokuapp.com/profile.php#login)
+    2. Find the element(click on the make appointment button)
+    3. click on the make appointment button
+    4. appointment Page will Open
+    5. Find and enter the login credentials (username and password)
+    6. verify the login page URl(katalon-demo-cura.herokuapp.com/#appointment](https://katalon-demo-cura.herokuapp.com/#appointment)
+
+
+HTML:
+
+    it is a mark up langauge.
+
+    it is using to find the elements using locators.
+
+    Selenium is providing 5 ways to find the elements.
+
+Locators:
+      Locators are used to
+        1. to identify the web elements in web page
+        2. to find the elements
+
+        Selenium uses 5 types or ways to find the elements:
+            >ID: It is locator type uses a unique ID type to find the element on the page.
+            >Name:It is locator type uses a unique name type to find the element on the page.
+            >Class name:It is locator type uses a unique class type to find the element on the page.
+            >Tag name:It is locator type uses a unique tag name type to find the element on the page.
+            >link text:It is locator type uses a unique link text type to find the element on the page.
+            >partial link text:It is locator type uses a unique partial text type to find the element on the page.
+
+        Advance Locators:
+        x-path:
+        XPath is a query language for selecting nodes from an HTML / XML document. XPath was defined by the World Wide Web Consortium.
+
+        It is used to find the element on the page.
+
+            Absolute x-path:
+                1.It is complex.
+                2.if a single element is added or removed from the path, it fails.
+
+            Relative x-path:
+                1.it is short and simple.
+                2.Easy to find the elements on teh page.
+                3. you can simple start by referring to the element and go by there.
+
+                Core Logic  //tagName[@attribute=value]
+
+
+                eg: //input[@id=value]
+                    //input[@username="value"] - this is the best approach as it goes directly to the element.saves time.
+
+                    //*input[@username="value"] >> * - this will refine all the elements and selects the element.
+
+            x_path functions:
+                known-variable = find the element(id,class,tag,link text,etc)
+                unknown variable then we use
+
+                text():
+                it used to find the element using the text
+                //a[text()="text"]
+
+                ##### **XPath Functions **
+
+
+                - **Known Attribute** - //*[@id='btn-make-appointment']
+                - **TAG Name** - //a[@id='btn-make-appointment']
+
+
+                Text Matching
+
+                1. Full Visible Text.  -> text() -> `//a[text()="Make Appointment"]`
+                2. Partial Text - contain() ->
+                    1. `//a[contains(text(),"Make Appointment")]`
+                    - //a[contains(text(),'Make')]
+                    - //a[contains(text(),'Appointment')]
+                    - `//a[contains(text(),'App')]`
+                    - //a[contains(@id,'btn-make-appointment')]
+                3. Starts - With -> //a[starts-with(text(),'Make')]
+
+
+                Contains()
+
+                //tag_name[contains(@attribute,'value_of_attribute')]
+
+                Starts-with()
+
+                //tag_name[starts-with(@attribute,'Part_of_Attribute_value')]
+
+                Text()
+
+                //tag_name[text()='Text of the element']
+
+                normalize-space
+
+                ```
+                //a[normalize-space()="Make Appointment"]
+                ```
+
+
+
+
+
+
